@@ -15,8 +15,6 @@ public class BankAccount {
     private int accountNo, balance;
     private static int totalBalance, totalAccountNumber, countDepositingMoney, countWithdrawingMoney;
     
-
-    
     public BankAccount(String name,int accountNo,int balance) {
         this.name=name;
         this.accountNo = accountNo;
